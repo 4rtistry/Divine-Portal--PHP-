@@ -1,0 +1,197 @@
+.background{
+    height: 100vh;
+    background: #0D126B;
+    background: linear-gradient(135deg, #0D126B, #3488F7);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    margin: 0 12%;
+}
+
+
+.box .img{
+    background-image:
+                linear-gradient(45deg,
+                    rgba(245, 70, 66, 0.75),
+                    rgba(8, 83, 156, 0.75)), 
+                      url(
+'../img/banner.jpg');
+    background-size: cover;
+    height: 777px;
+    width: 800px;
+
+}
+
+.box .img .left_text{
+    bottom: 30px;
+    height: 100vh;
+}
+
+.box .img .left_text h1{
+    color: #fff;
+}
+
+form{
+    background-color: #fff;
+    width: 600px;
+    padding: 50px 60px;
+}
+
+form .form_header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form .form_header h1{
+    font-size: 22px;
+}
+
+form h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form .input_names input{
+    width: 100%;  
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+
+form .input_names input:focus{
+    outline: none;
+    background-color: #F5F5F5;
+    padding-left: 8px;
+}
+
+form .input_names{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 17px;
+    margin-bottom: 25px;
+}
+
+form .input_email{
+    margin-bottom: 25px;
+}
+
+form .input_email .emailadd{
+    width:100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+}
+
+form .input_email .emailadd:focus{
+    outline: none;
+}
+
+form .input_email label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form .input_two{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 17px;
+    margin-bottom: 25px;
+}
+
+form .input_two .input_two_sub .bday{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+form .input_two .input_two_sub label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form .input_two .input_two_sub select{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+
+form .input_two .input_two_sub .bday:focus, form .input_two .input_two_sub select:focus{
+    outline: none;
+    background-color: #F5F5F5;
+}
+
+form .input_password{
+    margin-bottom: 5px;
+}
+
+form .input_password input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+
+form .input_password input:focus{
+    outline: none;
+    background-color: #F5F5F5;
+    padding-left: 8px;
+}
+
+form .input_password label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: #3488F7;
+    transition: 0.3 ease;
+}
+
+.links a:hover{
+    color: #1976D2;
+}
+
+.termsandcond{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+form button{
+    width: 100%;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #303F9F;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 45px;
+}
+
+
+

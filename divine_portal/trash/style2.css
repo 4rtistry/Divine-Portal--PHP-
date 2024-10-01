@@ -1,0 +1,92 @@
+.background{
+    height: 100vh;
+    background: #0D126B;
+    background: linear-gradient(135deg, #0D126B, #3488F7);
+}
+
+.container{
+    width: 100%;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .img{
+    background-image:
+                linear-gradient(45deg,
+                    rgba(245, 70, 66, 0.75),
+                    rgba(8, 83, 156, 0.75)), 
+                      url(
+'../img/banner.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 625px;
+}
+
+.box form{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    padding: 60px 50px;
+}
+
+.box .logo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box .logo h1{
+    font-size: 22px;
+}
+
+.box form label{
+    font-weight: 400;
+}
+
+.box form input{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+
+.box form input:focus{
+    outline: none;
+    background-color: #F5F5F5;
+    padding-left: 8px;
+}
+
+.box form button{
+    width: 100%;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #303F9F;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 45px;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1E88E5;
+    font-weight: 500;
+}
+
+.box .link{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link .checkbox{
+    display: flex;
+}
